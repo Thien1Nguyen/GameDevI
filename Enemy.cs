@@ -18,7 +18,7 @@ public class Enemy
 
     public string RandomAttack()
     {
-        return AttackList[rand.Next(AttackList.Count)].Name;
+        return AttackList[rand.Next(0, AttackList.Count)].Name;
     }
 
     public void AddAttack(Attack attack)
