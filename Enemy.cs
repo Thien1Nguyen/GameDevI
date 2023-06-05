@@ -8,7 +8,7 @@ public class Enemy
 
     Random rand = new Random();
 
-    public Enemy(string name, int health, List<Attack> attackList)
+    public Enemy(string name, List<Attack> attackList,int health = 100)
     {
         Name = name;
         Health = health;
